@@ -2,7 +2,9 @@ import React from 'react'
 
 const StaticUserInfoPage = (props) => {
   return (
-    <h1>Profile page of {props.firstName}</h1>
+    <div className='flex flex-col justify-center items-center h-screen bg-yellow-50'>
+      <h1 className='text-2xl'>Profile page of {props.firstName}</h1>
+    </div>
   )
 }
 

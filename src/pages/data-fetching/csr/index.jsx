@@ -24,12 +24,14 @@ const UserPage = () => {
   // }, [])
   console.log(data)
   return (
-    <div className='flex flex-col'>
-      <h1 className="text-2xl font-bold w-fit mt-5 bg-black text-white">User Page - CSR client side rendering</h1>
+    <div className='flex flex-col justify-center items-center bg-blue-50'>
+      <h1 className="text-2xl font-bold mt-5">User Page - CSR client side rendering</h1>
 
-      {data.users?.map((user) => (
-        <Link href={`/data-fetching/csr/${user.id}`} className='hover:text-red-600' key={user.id}>{user.firstName}</Link>
-      ))}
+      <div className='flex flex-col justify-center items-center'>
+        {data.users?.map((user) => (
+          <Link href={`/data-fetching/csr/${user.id}`} className='hover:text-red-600' key={user.id}>{user.firstName}</Link>
+        ))}
+      </div>
     </div>
   )
 }

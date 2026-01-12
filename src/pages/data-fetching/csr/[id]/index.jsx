@@ -13,11 +13,10 @@ const UserInfoPage = () => {
     fetchUserById(id)
   }, [router.query.id])
   return (
-    <div className='flex flex-col justify-center items-center h-screen bg-red-50'>
+    <div className='flex flex-col justify-center items-center bg-blue-50 h-screen'>
       <h1 className='text-2xl'>UserName : {userData?.firstName}</h1>
     </div>
   )
 }
 
 export default UserInfoPage
-

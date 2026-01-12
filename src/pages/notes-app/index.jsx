@@ -34,7 +34,7 @@ const NotesApp = () => {
   console.log(notes, notesList)
   return (
     <div
-      className={`${geistSans.className} ${geistMono.className} flex flex-col justify-center items-center p-5`}
+      className={`${geistSans.className} ${geistMono.className} flex flex-col justify-center items-center p-5 bg-green-50 h-screen`}
     >
       <h1 className="text-4xl font-bold mt-5 bg-green-800 text-white">WELCOME TO THE NOTES APP !!</h1>
       <form onSubmit={handleSubmit} className='flex flex-col justify-center items-center gap-2 mt-5'>
