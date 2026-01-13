@@ -45,6 +45,7 @@ export default function Home() {
         <Link href={"/notes-app"} className="hover:text-green-600">- Notes App using CRUD</Link>
         <Link href={"/counter-context-api"} className="hover:text-green-600">- Counter App using Context API</Link>
         <Link href={"/counter-redux"} className="hover:text-green-600">- Counter App using Redux Toolkit</Link>
+        <Link href={"/debounce-search-user"} className="hover:text-green-600">- Debouncing Search</Link>
         <div className="flex flex-col">
           <h2 className="font-bold">Data fetching</h2>
           <Link href={"/data-fetching/csr"} className="hover:text-green-600">- Client Side Rendering</Link>
